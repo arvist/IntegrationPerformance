@@ -21,10 +21,10 @@ public class JSONFileProducer {
     // Feeds 1000 JSON messages for processing, returns total elapsed time in camel routes
     public long feedSampleJSON() throws IOException {
 
-        File [] files = new File("src/main/resources/testData/json/").listFiles();
+        File [] files = new File("C:/testData/json/").listFiles();
         ProducerTemplate producer = this.camelContext.createProducerTemplate();
         long totalTime = 0;
-        for(int i=0; i<100; i++) {
+        for(int i=0; i < 100; i++) {
             for (File file : files) {
                 String jsonContents = FileUtils.readFileToString(file);
                 Exchange exchange = new DefaultExchange(this.camelContext);

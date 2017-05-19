@@ -68,7 +68,7 @@ public class Configuration {
 
     @Bean
     public List<String> supportedCompanies(){
-        return Arrays.asList("APPL","GOOG", "TSLA");
+        return Arrays.asList("ZGEQ","XAFG","AAPX","ADCA","AGOP","VAVS","AGAC","GEAE","BNVD","DAFA","GASS","SAGQ","BASE","BEGV","APPL","GOOG","TSLA","AAAA");
     }
 
     @Bean
@@ -94,8 +94,7 @@ public class Configuration {
         properties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
         properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
         properties.put("hibernate.hbm2ddl.auto", "create-drop");
-        properties.put("show_sql","true");
-
+        properties.put("hibernate.show_sql","true");
         return properties;
     }
 
