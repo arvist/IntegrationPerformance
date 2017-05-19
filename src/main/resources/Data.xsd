@@ -1,0 +1,153 @@
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="marketData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="company" maxOccurs="unbounded" minOccurs="0">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element type="xs:string" name="Name"/>
+              <xs:element name="Series">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="close">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="max"/>
+                          <xs:element type="xs:int" name="maxDate"/>
+                          <xs:element type="xs:float" name="min"/>
+                          <xs:element type="xs:int" name="minDate"/>
+                          <xs:element name="values">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="high">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="max"/>
+                          <xs:element type="xs:int" name="maxDate"/>
+                          <xs:element type="xs:float" name="min"/>
+                          <xs:element type="xs:int" name="minDate"/>
+                          <xs:element name="values">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="low">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="max"/>
+                          <xs:element type="xs:int" name="maxDate"/>
+                          <xs:element type="xs:float" name="min"/>
+                          <xs:element type="xs:int" name="minDate"/>
+                          <xs:element name="values">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                    <xs:element name="open">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element type="xs:float" name="max"/>
+                          <xs:element type="xs:int" name="maxDate"/>
+                          <xs:element type="xs:float" name="min"/>
+                          <xs:element type="xs:int" name="minDate"/>
+                          <xs:element name="values">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SeriesDates">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:string" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:short" name="SeriesDuration"/>
+              <xs:element name="SeriesLabelCoordinates">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="SeriesLabels">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="x">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="dates">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:int" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="pos">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="priorities">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:float" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="text">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:string" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                          <xs:element name="utcDates">
+                            <xs:complexType>
+                              <xs:sequence>
+                                <xs:element type="xs:int" name="element" maxOccurs="unbounded" minOccurs="0"/>
+                              </xs:sequence>
+                            </xs:complexType>
+                          </xs:element>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element type="xs:string" name="Symbol"/>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element type="xs:string" name="Matches"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

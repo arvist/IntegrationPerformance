@@ -1,0 +1,1608 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<marketData>
+   <company>
+      <Name>Tesla Inc</Name>
+      <Series>
+         <close>
+            <max>325.22</max>
+            <maxDate>42865</maxDate>
+            <min>181.45</min>
+            <minDate>42688</minDate>
+            <values>
+               <element>208.29</element>
+               <element>204.66</element>
+               <element>211.17</element>
+               <element>215.21</element>
+               <element>220.28</element>
+               <element>216.22</element>
+               <element>217.91</element>
+               <element>219.58</element>
+               <element>225.12</element>
+               <element>223.04</element>
+               <element>223.23</element>
+               <element>219.56</element>
+               <element>218.96</element>
+               <element>218.99</element>
+               <element>220.68</element>
+               <element>232.34</element>
+               <element>235.52</element>
+               <element>229.36</element>
+               <element>218.79</element>
+               <element>217.87</element>
+               <element>214.96</element>
+               <element>217.7</element>
+               <element>217.93</element>
+               <element>215.47</element>
+               <element>219.7</element>
+               <element>219.61</element>
+               <element>196.66</element>
+               <element>196.4</element>
+               <element>193.15</element>
+               <element>198.55</element>
+               <element>201.79</element>
+               <element>210.19</element>
+               <element>212.28</element>
+               <element>216.5</element>
+               <element>213.98</element>
+               <element>214.44</element>
+               <element>215.94</element>
+               <element>216.78</element>
+               <element>224.78</element>
+               <element>224.65</element>
+               <element>222.53</element>
+               <element>221.53</element>
+               <element>220.4</element>
+               <element>226.25</element>
+               <element>225.26</element>
+               <element>228.36</element>
+               <element>220.5</element>
+               <element>222.27</element>
+               <element>230.01</element>
+               <element>229.51</element>
+               <element>228.49</element>
+               <element>230.61</element>
+               <element>234.79</element>
+               <element>230.01</element>
+               <element>227.2</element>
+               <element>225.79</element>
+               <element>230.61</element>
+               <element>230.03</element>
+               <element>226.16</element>
+               <element>229.08</element>
+               <element>225.65</element>
+               <element>224.91</element>
+               <element>225.61</element>
+               <element>225.59</element>
+               <element>223.61</element>
+               <element>223.24</element>
+               <element>223.51</element>
+               <element>225</element>
+               <element>222.93</element>
+               <element>224.84</element>
+               <element>222.62</element>
+               <element>220.96</element>
+               <element>219.99</element>
+               <element>215.2</element>
+               <element>211.34</element>
+               <element>212.01</element>
+               <element>200.77</element>
+               <element>197.78</element>
+               <element>202.83</element>
+               <element>201.71</element>
+               <element>197.36</element>
+               <element>194.47</element>
+               <element>198.3</element>
+               <element>196.05</element>
+               <element>196.41</element>
+               <element>200.42</element>
+               <element>205.4</element>
+               <element>206.34</element>
+               <element>204.64</element>
+               <element>205.22</element>
+               <element>206.43</element>
+               <element>207.45</element>
+               <element>208.99</element>
+               <element>205.81</element>
+               <element>206.27</element>
+               <element>200.7</element>
+               <element>204.03</element>
+               <element>213.7</element>
+               <element>211.41</element>
+               <element>208.46</element>
+               <element>201</element>
+               <element>196.61</element>
+               <element>200.95</element>
+               <element>200.1</element>
+               <element>201.51</element>
+               <element>200.24</element>
+               <element>196.51</element>
+               <element>193.96</element>
+               <element>199.1</element>
+               <element>203.56</element>
+               <element>199.1</element>
+               <element>200.09</element>
+               <element>202.76</element>
+               <element>202.34</element>
+               <element>202.24</element>
+               <element>204.01</element>
+               <element>199.97</element>
+               <element>197.73</element>
+               <element>190.79</element>
+               <element>188.02</element>
+               <element>187.42</element>
+               <element>190.56</element>
+               <element>193.21</element>
+               <element>194.94</element>
+               <element>190.06</element>
+               <element>185.35</element>
+               <element>188.56</element>
+               <element>181.45</element>
+               <element>183.77</element>
+               <element>183.93</element>
+               <element>188.66</element>
+               <element>185.02</element>
+               <element>184.52</element>
+               <element>191.17</element>
+               <element>193.14</element>
+               <element>196.65</element>
+               <element>196.12</element>
+               <element>189.57</element>
+               <element>189.4</element>
+               <element>181.88</element>
+               <element>181.47</element>
+               <element>186.8</element>
+               <element>185.85</element>
+               <element>193.15</element>
+               <element>192.29</element>
+               <element>192.18</element>
+               <element>192.43</element>
+               <element>198.15</element>
+               <element>198.69</element>
+               <element>197.58</element>
+               <element>202.49</element>
+               <element>202.73</element>
+               <element>208.79</element>
+               <element>207.7</element>
+               <element>208.45</element>
+               <element>213.34</element>
+               <element>219.53</element>
+               <element>219.74</element>
+               <element>214.68</element>
+               <element>213.69</element>
+               <element>216.99</element>
+               <element>226.99</element>
+               <element>226.75</element>
+               <element>229.01</element>
+               <element>231.28</element>
+               <element>229.87</element>
+               <element>229.73</element>
+               <element>229.59</element>
+               <element>237.75</element>
+               <element>235.58</element>
+               <element>238.36</element>
+               <element>243.76</element>
+               <element>244.73</element>
+               <element>248.92</element>
+               <element>254.61</element>
+               <element>254.47</element>
+               <element>252.51</element>
+               <element>252.95</element>
+               <element>250.63</element>
+               <element>251.93</element>
+               <element>249.24</element>
+               <element>251.55</element>
+               <element>251.33</element>
+               <element>257.77</element>
+               <element>257.48</element>
+               <element>262.08</element>
+               <element>269.2</element>
+               <element>269.23</element>
+               <element>280.6</element>
+               <element>280.98</element>
+               <element>279.76</element>
+               <element>268.95</element>
+               <element>272.23</element>
+               <element>277.39</element>
+               <element>273.51</element>
+               <element>255.99</element>
+               <element>257</element>
+               <element>246.23</element>
+               <element>249.99</element>
+               <element>250.02</element>
+               <element>250.48</element>
+               <element>251.57</element>
+               <element>251.21</element>
+               <element>248.59</element>
+               <element>246.87</element>
+               <element>244.9</element>
+               <element>243.69</element>
+               <element>246.17</element>
+               <element>258</element>
+               <element>255.73</element>
+               <element>254.78</element>
+               <element>263.16</element>
+               <element>270.22</element>
+               <element>277.45</element>
+               <element>277.38</element>
+               <element>277.92</element>
+               <element>278.3</element>
+               <element>298.52</element>
+               <element>303.7</element>
+               <element>295</element>
+               <element>298.7</element>
+               <element>302.54</element>
+               <element>312.39</element>
+               <element>308.71</element>
+               <element>296.84</element>
+               <element>304</element>
+               <element>301.44</element>
+               <element>300.25</element>
+               <element>305.52</element>
+               <element>302.51</element>
+               <element>305.6</element>
+               <element>308.03</element>
+               <element>313.79</element>
+               <element>310.17</element>
+               <element>308.63</element>
+               <element>314.07</element>
+               <element>322.83</element>
+               <element>318.89</element>
+               <element>311.02</element>
+               <element>295.46</element>
+               <element>308.35</element>
+               <element>307.19</element>
+               <element>321.26</element>
+               <element>325.22</element>
+               <element>323.1</element>
+               <element>324.81</element>
+               <element>316.245</element>
+            </values>
+         </close>
+         <high>
+            <max>327.66</max>
+            <maxDate>42857</maxDate>
+            <min>184.73</min>
+            <minDate>42690</minDate>
+            <values>
+               <element>213.15</element>
+               <element>209.82</element>
+               <element>215.31</element>
+               <element>216.79</element>
+               <element>220.55</element>
+               <element>222.6</element>
+               <element>218.74</element>
+               <element>221.36</element>
+               <element>225.26</element>
+               <element>225.93</element>
+               <element>224.75</element>
+               <element>222.4</element>
+               <element>219.909</element>
+               <element>221.94</element>
+               <element>220.9</element>
+               <element>234.44</element>
+               <element>240.845</element>
+               <element>235.33</element>
+               <element>227.97</element>
+               <element>225.77</element>
+               <element>222.2</element>
+               <element>221.9</element>
+               <element>218.04</element>
+               <element>219.99</element>
+               <element>223.75</element>
+               <element>222.569</element>
+               <element>205.95</element>
+               <element>197.55</element>
+               <element>195.12</element>
+               <element>198.81</element>
+               <element>204.05</element>
+               <element>211.78</element>
+               <element>213.5</element>
+               <element>218.24</element>
+               <element>214.544</element>
+               <element>215.23</element>
+               <element>218.12</element>
+               <element>219.81</element>
+               <element>226.78</element>
+               <element>227.5</element>
+               <element>225.59</element>
+               <element>224.94</element>
+               <element>222.75</element>
+               <element>227.09</element>
+               <element>229.1</element>
+               <element>229.8</element>
+               <element>227.847</element>
+               <element>224.5</element>
+               <element>231.39</element>
+               <element>230</element>
+               <element>233.36</element>
+               <element>230.76</element>
+               <element>235.28</element>
+               <element>236.63</element>
+               <element>229.87</element>
+               <element>229.699</element>
+               <element>230.86</element>
+               <element>232</element>
+               <element>229.6</element>
+               <element>231.538</element>
+               <element>229.87</element>
+               <element>227.57</element>
+               <element>226.65</element>
+               <element>229.5</element>
+               <element>227.19</element>
+               <element>224.83</element>
+               <element>225.66</element>
+               <element>225.169</element>
+               <element>225.11</element>
+               <element>228.49</element>
+               <element>227.15</element>
+               <element>223.8</element>
+               <element>222.855</element>
+               <element>220.4</element>
+               <element>216.11</element>
+               <element>212.6</element>
+               <element>211.1</element>
+               <element>203.2</element>
+               <element>203.25</element>
+               <element>206.497</element>
+               <element>199.89</element>
+               <element>199.92</element>
+               <element>201.369</element>
+               <element>198.49</element>
+               <element>197.925</element>
+               <element>202.519</element>
+               <element>205.7</element>
+               <element>209.43</element>
+               <element>207.75</element>
+               <element>207</element>
+               <element>207.28</element>
+               <element>210.18</element>
+               <element>211</element>
+               <element>209.982</element>
+               <element>208.25</element>
+               <element>207.33</element>
+               <element>204.98</element>
+               <element>215.669</element>
+               <element>213.32</element>
+               <element>213.15</element>
+               <element>204.21</element>
+               <element>201.32</element>
+               <element>204.14</element>
+               <element>202.2</element>
+               <element>203.88</element>
+               <element>200.895</element>
+               <element>201.43</element>
+               <element>198.39</element>
+               <element>199.47</element>
+               <element>206.66</element>
+               <element>203</element>
+               <element>201.57</element>
+               <element>203.945</element>
+               <element>204.69</element>
+               <element>203.19</element>
+               <element>213.7</element>
+               <element>205.32</element>
+               <element>202.49</element>
+               <element>198.5</element>
+               <element>192.695</element>
+               <element>191.47</element>
+               <element>193.46</element>
+               <element>194.29</element>
+               <element>197.49</element>
+               <element>192</element>
+               <element>191.61</element>
+               <element>188.88</element>
+               <element>188.25</element>
+               <element>186.43</element>
+               <element>184.73</element>
+               <element>189.49</element>
+               <element>193</element>
+               <element>188.89</element>
+               <element>191.47</element>
+               <element>195.644</element>
+               <element>197.237</element>
+               <element>199.35</element>
+               <element>196.73</element>
+               <element>191.89</element>
+               <element>188.53</element>
+               <element>184.88</element>
+               <element>188.89</element>
+               <element>186.58</element>
+               <element>193.4</element>
+               <element>192.5</element>
+               <element>193.836</element>
+               <element>194.42</element>
+               <element>201.28</element>
+               <element>203</element>
+               <element>200.74</element>
+               <element>202.59</element>
+               <element>204.45</element>
+               <element>209</element>
+               <element>212.23</element>
+               <element>209.99</element>
+               <element>213.45</element>
+               <element>222.25</element>
+               <element>223.8</element>
+               <element>219.2</element>
+               <element>217.5</element>
+               <element>220.33</element>
+               <element>228</element>
+               <element>227.48</element>
+               <element>230.31</element>
+               <element>231.92</element>
+               <element>232</element>
+               <element>229.98</element>
+               <element>230.7</element>
+               <element>237.85</element>
+               <element>239.96</element>
+               <element>239.71</element>
+               <element>248.68</element>
+               <element>246</element>
+               <element>250.89</element>
+               <element>254.8</element>
+               <element>258.46</element>
+               <element>255.74</element>
+               <element>253</element>
+               <element>255.29</element>
+               <element>255.89</element>
+               <element>253.2</element>
+               <element>252.42</element>
+               <element>252.179</element>
+               <element>257.82</element>
+               <element>260</element>
+               <element>263.36</element>
+               <element>271.18</element>
+               <element>270.95</element>
+               <element>280.79</element>
+               <element>287.39</element>
+               <element>282.24</element>
+               <element>280</element>
+               <element>272.89</element>
+               <element>281.4</element>
+               <element>283.45</element>
+               <element>264.66</element>
+               <element>258.25</element>
+               <element>248.36</element>
+               <element>251</element>
+               <element>254.85</element>
+               <element>253.28</element>
+               <element>251.9</element>
+               <element>251.7</element>
+               <element>253.89</element>
+               <element>250.07</element>
+               <element>248.66</element>
+               <element>246.5</element>
+               <element>246.85</element>
+               <element>258.12</element>
+               <element>261</element>
+               <element>257.672</element>
+               <element>263.89</element>
+               <element>270.57</element>
+               <element>280.68</element>
+               <element>279.6</element>
+               <element>282</element>
+               <element>279.68</element>
+               <element>299</element>
+               <element>304.81</element>
+               <element>304.88</element>
+               <element>301.94</element>
+               <element>302.69</element>
+               <element>313.73</element>
+               <element>313.47</element>
+               <element>308.448</element>
+               <element>307.39</element>
+               <element>304</element>
+               <element>300.84</element>
+               <element>306.62</element>
+               <element>309.15</element>
+               <element>306.4</element>
+               <element>310.55</element>
+               <element>313.98</element>
+               <element>314.5</element>
+               <element>313.09</element>
+               <element>314.8</element>
+               <element>327.25</element>
+               <element>327.66</element>
+               <element>321.53</element>
+               <element>307.77</element>
+               <element>308.55</element>
+               <element>313.79</element>
+               <element>321.99</element>
+               <element>325.5</element>
+               <element>326</element>
+               <element>327</element>
+               <element>320.2</element>
+            </values>
+         </high>
+         <low>
+            <max>321.53</max>
+            <maxDate>42867</maxDate>
+            <min>178.19</min>
+            <minDate>42688</minDate>
+            <values>
+               <element>207.92</element>
+               <element>204.02</element>
+               <element>207.75</element>
+               <element>207.3</element>
+               <element>216.35</element>
+               <element>215.86</element>
+               <element>215.18</element>
+               <element>216.51</element>
+               <element>219.05</element>
+               <element>220.75</element>
+               <element>221.5</element>
+               <element>216.89</element>
+               <element>217.11</element>
+               <element>218.01</element>
+               <element>215.45</element>
+               <element>221.52</element>
+               <element>232.605</element>
+               <element>227.06</element>
+               <element>218.422</element>
+               <element>217.66</element>
+               <element>212.53</element>
+               <element>215.13</element>
+               <element>213.5</element>
+               <element>214.5</element>
+               <element>218.23</element>
+               <element>218.81</element>
+               <element>195.75</element>
+               <element>192.13</element>
+               <element>189.73</element>
+               <element>187.87</element>
+               <element>199.41</element>
+               <element>203</element>
+               <element>209.02</element>
+               <element>206</element>
+               <element>208</element>
+               <element>209</element>
+               <element>213.01</element>
+               <element>214.5</element>
+               <element>219.51</element>
+               <element>223.22</element>
+               <element>220.29</element>
+               <element>221.05</element>
+               <element>219.64</element>
+               <element>218.3</element>
+               <element>224.75</element>
+               <element>225</element>
+               <element>219.1</element>
+               <element>218.88</element>
+               <element>221.372</element>
+               <element>225.3</element>
+               <element>226.92</element>
+               <element>226.6</element>
+               <element>230.24</element>
+               <element>229.38</element>
+               <element>221.4</element>
+               <element>224.21</element>
+               <element>222.05</element>
+               <element>227.4</element>
+               <element>226.09</element>
+               <element>226.65</element>
+               <element>224.62</element>
+               <element>223.41</element>
+               <element>224.04</element>
+               <element>224.93</element>
+               <element>223.41</element>
+               <element>222.8</element>
+               <element>222.29</element>
+               <element>222.53</element>
+               <element>222.68</element>
+               <element>222.8</element>
+               <element>222.22</element>
+               <element>220.77</element>
+               <element>218.82</element>
+               <element>215</element>
+               <element>210.52</element>
+               <element>208.65</element>
+               <element>200.5</element>
+               <element>196.2</element>
+               <element>199</element>
+               <element>200.71</element>
+               <element>196.36</element>
+               <element>193.7</element>
+               <element>194.1</element>
+               <element>193.45</element>
+               <element>194.856</element>
+               <element>196.4</element>
+               <element>199</element>
+               <element>205</element>
+               <element>203.91</element>
+               <element>201.56</element>
+               <element>203</element>
+               <element>205.67</element>
+               <element>206.5</element>
+               <element>204.609</element>
+               <element>205.26</element>
+               <element>200.58</element>
+               <element>199.55</element>
+               <element>208.25</element>
+               <element>208.82</element>
+               <element>208.12</element>
+               <element>200.21</element>
+               <element>195.8</element>
+               <element>199.66</element>
+               <element>198.31</element>
+               <element>200.42</element>
+               <element>197.05</element>
+               <element>196.3</element>
+               <element>192</element>
+               <element>193.26</element>
+               <element>198.06</element>
+               <element>197.05</element>
+               <element>197.41</element>
+               <element>200.25</element>
+               <element>201.2</element>
+               <element>200.1</element>
+               <element>201.65</element>
+               <element>199.83</element>
+               <element>195.81</element>
+               <element>188.105</element>
+               <element>187.505</element>
+               <element>187.04</element>
+               <element>185.96</element>
+               <element>190.05</element>
+               <element>191.26</element>
+               <element>183.95</element>
+               <element>180.42</element>
+               <element>183</element>
+               <element>178.19</element>
+               <element>182.05</element>
+               <element>181.21</element>
+               <element>182.11</element>
+               <element>185</element>
+               <element>184.41</element>
+               <element>183.71</element>
+               <element>189</element>
+               <element>193.64</element>
+               <element>194.55</element>
+               <element>189.5</element>
+               <element>187.5</element>
+               <element>181</element>
+               <element>180</element>
+               <element>182.51</element>
+               <element>182.683</element>
+               <element>185</element>
+               <element>189.54</element>
+               <element>190.81</element>
+               <element>191.04</element>
+               <element>193</element>
+               <element>196.76</element>
+               <element>197.39</element>
+               <element>197.6</element>
+               <element>199.84</element>
+               <element>202.5</element>
+               <element>207.41</element>
+               <element>206.5</element>
+               <element>207.71</element>
+               <element>214.42</element>
+               <element>217.2</element>
+               <element>214.123</element>
+               <element>211.68</element>
+               <element>210.96</element>
+               <element>214.31</element>
+               <element>221.95</element>
+               <element>225.45</element>
+               <element>228</element>
+               <element>226.89</element>
+               <element>226.68</element>
+               <element>225.58</element>
+               <element>229.59</element>
+               <element>234.37</element>
+               <element>235.58</element>
+               <element>240.75</element>
+               <element>243.01</element>
+               <element>245.5</element>
+               <element>249.65</element>
+               <element>251.8</element>
+               <element>250.75</element>
+               <element>248.52</element>
+               <element>247.1</element>
+               <element>247.7</element>
+               <element>249.05</element>
+               <element>247.71</element>
+               <element>249.68</element>
+               <element>250.63</element>
+               <element>256.42</element>
+               <element>256.2</element>
+               <element>266.15</element>
+               <element>266.11</element>
+               <element>270.51</element>
+               <element>278.61</element>
+               <element>276.44</element>
+               <element>268.5</element>
+               <element>264.15</element>
+               <element>274.01</element>
+               <element>272.6</element>
+               <element>255.56</element>
+               <element>250.2</element>
+               <element>242.01</element>
+               <element>243.9</element>
+               <element>249.11</element>
+               <element>248.27</element>
+               <element>249</element>
+               <element>247.51</element>
+               <element>248.32</element>
+               <element>245.32</element>
+               <element>243</element>
+               <element>243</element>
+               <element>242.781</element>
+               <element>246.02</element>
+               <element>254.27</element>
+               <element>253.3</element>
+               <element>255.01</element>
+               <element>259.75</element>
+               <element>275</element>
+               <element>275.54</element>
+               <element>277.21</element>
+               <element>276.32</element>
+               <element>284.58</element>
+               <element>294.53</element>
+               <element>294.2</element>
+               <element>294.1</element>
+               <element>297.15</element>
+               <element>308.71</element>
+               <element>305.5</element>
+               <element>296.32</element>
+               <element>295.3</element>
+               <element>298.68</element>
+               <element>297.9</element>
+               <element>302.11</element>
+               <element>300.23</element>
+               <element>300.42</element>
+               <element>306.022</element>
+               <element>305.86</element>
+               <element>309</element>
+               <element>307.5</element>
+               <element>308</element>
+               <element>314.81</element>
+               <element>316.56</element>
+               <element>310.45</element>
+               <element>290.76</element>
+               <element>296.8</element>
+               <element>305.82</element>
+               <element>309.1</element>
+               <element>318.12</element>
+               <element>319.6</element>
+               <element>321.53</element>
+               <element>312.53</element>
+            </values>
+         </low>
+         <open>
+            <max>325.48</max>
+            <maxDate>42867</maxDate>
+            <min>182.51</min>
+            <minDate>42709</minDate>
+            <values>
+               <element>208.15</element>
+               <element>209.05</element>
+               <element>209.15</element>
+               <element>213.62</element>
+               <element>216.99</element>
+               <element>219.87</element>
+               <element>216.6</element>
+               <element>217.91</element>
+               <element>220.5</element>
+               <element>224.99</element>
+               <element>223.04</element>
+               <element>221.48</element>
+               <element>219.59</element>
+               <element>220</element>
+               <element>218</element>
+               <element>222.24</element>
+               <element>233.8</element>
+               <element>234.98</element>
+               <element>227.39</element>
+               <element>219.5</element>
+               <element>218.88</element>
+               <element>216.95</element>
+               <element>217.42</element>
+               <element>217.81</element>
+               <element>219.5</element>
+               <element>220.68</element>
+               <element>199.47</element>
+               <element>195.69</element>
+               <element>190.05</element>
+               <element>190.86</element>
+               <element>201.89</element>
+               <element>205.13</element>
+               <element>212.97</element>
+               <element>206.14</element>
+               <element>209.73</element>
+               <element>210</element>
+               <element>213.1</element>
+               <element>217.8</element>
+               <element>219.96</element>
+               <element>224.1</element>
+               <element>225.5</element>
+               <element>223.12</element>
+               <element>222.52</element>
+               <element>219.64</element>
+               <element>225</element>
+               <element>226.47</element>
+               <element>226</element>
+               <element>221.99</element>
+               <element>222.27</element>
+               <element>227.69</element>
+               <element>229.34</element>
+               <element>227.95</element>
+               <element>230.7</element>
+               <element>235.5</element>
+               <element>229.37</element>
+               <element>227.37</element>
+               <element>225.69</element>
+               <element>230</element>
+               <element>228</element>
+               <element>226.82</element>
+               <element>228.24</element>
+               <element>226.17</element>
+               <element>225.41</element>
+               <element>226.02</element>
+               <element>225.49</element>
+               <element>224.33</element>
+               <element>223.82</element>
+               <element>223.54</element>
+               <element>224.17</element>
+               <element>224.32</element>
+               <element>227.05</element>
+               <element>223.11</element>
+               <element>222.14</element>
+               <element>220.15</element>
+               <element>216.11</element>
+               <element>210.43</element>
+               <element>209.01</element>
+               <element>202.33</element>
+               <element>199.02</element>
+               <element>205.5</element>
+               <element>199.55</element>
+               <element>199.09</element>
+               <element>195</element>
+               <element>197.06</element>
+               <element>195.75</element>
+               <element>196.49</element>
+               <element>200.42</element>
+               <element>207</element>
+               <element>206.85</element>
+               <element>206.37</element>
+               <element>206.4</element>
+               <element>205.99</element>
+               <element>206.5</element>
+               <element>209.65</element>
+               <element>207.51</element>
+               <element>205.6</element>
+               <element>202.21</element>
+               <element>212.3</element>
+               <element>213.1</element>
+               <element>212.24</element>
+               <element>202.46</element>
+               <element>201</element>
+               <element>201.35</element>
+               <element>201.85</element>
+               <element>200.95</element>
+               <element>200.5</element>
+               <element>200.66</element>
+               <element>197.05</element>
+               <element>195.99</element>
+               <element>199.74</element>
+               <element>202.12</element>
+               <element>198.6</element>
+               <element>201</element>
+               <element>202.9</element>
+               <element>201</element>
+               <element>211.34</element>
+               <element>204</element>
+               <element>202.49</element>
+               <element>198.04</element>
+               <element>190.05</element>
+               <element>189</element>
+               <element>189</element>
+               <element>193.59</element>
+               <element>193.79</element>
+               <element>186.875</element>
+               <element>191.05</element>
+               <element>184.24</element>
+               <element>188</element>
+               <element>182.78</element>
+               <element>182.65</element>
+               <element>183.49</element>
+               <element>190.65</element>
+               <element>185.04</element>
+               <element>185.84</element>
+               <element>190.61</element>
+               <element>193.64</element>
+               <element>195.48</element>
+               <element>195.56</element>
+               <element>191</element>
+               <element>188.25</element>
+               <element>182.88</element>
+               <element>182.51</element>
+               <element>185.52</element>
+               <element>186.15</element>
+               <element>192.05</element>
+               <element>190.87</element>
+               <element>192.8</element>
+               <element>193.18</element>
+               <element>198.74</element>
+               <element>198.41</element>
+               <element>198.08</element>
+               <element>202.49</element>
+               <element>203.05</element>
+               <element>208.45</element>
+               <element>208.22</element>
+               <element>208</element>
+               <element>214.88</element>
+               <element>221.53</element>
+               <element>218.56</element>
+               <element>216.3</element>
+               <element>214.86</element>
+               <element>214.75</element>
+               <element>226.42</element>
+               <element>226.93</element>
+               <element>228.97</element>
+               <element>232</element>
+               <element>229.07</element>
+               <element>229.06</element>
+               <element>230</element>
+               <element>236.7</element>
+               <element>236.65</element>
+               <element>247.25</element>
+               <element>245.46</element>
+               <element>245.85</element>
+               <element>250</element>
+               <element>257.31</element>
+               <element>254.29</element>
+               <element>251.38</element>
+               <element>252.53</element>
+               <element>249.24</element>
+               <element>253.05</element>
+               <element>248.34</element>
+               <element>251.91</element>
+               <element>251</element>
+               <element>258.19</element>
+               <element>257.35</element>
+               <element>266.25</element>
+               <element>269.79</element>
+               <element>270.74</element>
+               <element>279.03</element>
+               <element>280</element>
+               <element>277.6</element>
+               <element>265.8</element>
+               <element>275.45</element>
+               <element>280.31</element>
+               <element>264</element>
+               <element>252.66</element>
+               <element>248.17</element>
+               <element>244.19</element>
+               <element>254.18</element>
+               <element>249.71</element>
+               <element>250.74</element>
+               <element>247.91</element>
+               <element>251.92</element>
+               <element>247</element>
+               <element>247.63</element>
+               <element>246.21</element>
+               <element>244.82</element>
+               <element>246.11</element>
+               <element>257</element>
+               <element>255.39</element>
+               <element>255.7</element>
+               <element>260.6</element>
+               <element>277.02</element>
+               <element>278.34</element>
+               <element>278.04</element>
+               <element>278.73</element>
+               <element>286.9</element>
+               <element>296.89</element>
+               <element>302.04</element>
+               <element>296.88</element>
+               <element>297.5</element>
+               <element>309.15</element>
+               <element>313.38</element>
+               <element>306.34</element>
+               <element>296.7</element>
+               <element>302.7</element>
+               <element>299.7</element>
+               <element>302.46</element>
+               <element>306.51</element>
+               <element>302</element>
+               <element>309.22</element>
+               <element>308</element>
+               <element>312.37</element>
+               <element>311.69</element>
+               <element>309.83</element>
+               <element>314.88</element>
+               <element>324</element>
+               <element>317.67</element>
+               <element>307.435</element>
+               <element>298</element>
+               <element>310.9</element>
+               <element>309.38</element>
+               <element>321.56</element>
+               <element>323.4</element>
+               <element>325.48</element>
+               <element>318.38</element>
+            </values>
+         </open>
+      </Series>
+      <SeriesDates>
+         <element>Mon May 16 2016</element>
+         <element>Tue May 17 2016</element>
+         <element>Wed May 18 2016</element>
+         <element>Thu May 19 2016</element>
+         <element>Fri May 20 2016</element>
+         <element>Mon May 23 2016</element>
+         <element>Tue May 24 2016</element>
+         <element>Wed May 25 2016</element>
+         <element>Thu May 26 2016</element>
+         <element>Fri May 27 2016</element>
+         <element>Tue May 31 2016</element>
+         <element>Wed Jun 1 2016</element>
+         <element>Thu Jun 2 2016</element>
+         <element>Fri Jun 3 2016</element>
+         <element>Mon Jun 6 2016</element>
+         <element>Tue Jun 7 2016</element>
+         <element>Wed Jun 8 2016</element>
+         <element>Thu Jun 9 2016</element>
+         <element>Fri Jun 10 2016</element>
+         <element>Mon Jun 13 2016</element>
+         <element>Tue Jun 14 2016</element>
+         <element>Wed Jun 15 2016</element>
+         <element>Thu Jun 16 2016</element>
+         <element>Fri Jun 17 2016</element>
+         <element>Mon Jun 20 2016</element>
+         <element>Tue Jun 21 2016</element>
+         <element>Wed Jun 22 2016</element>
+         <element>Thu Jun 23 2016</element>
+         <element>Fri Jun 24 2016</element>
+         <element>Mon Jun 27 2016</element>
+         <element>Tue Jun 28 2016</element>
+         <element>Wed Jun 29 2016</element>
+         <element>Thu Jun 30 2016</element>
+         <element>Fri Jul 1 2016</element>
+         <element>Tue Jul 5 2016</element>
+         <element>Wed Jul 6 2016</element>
+         <element>Thu Jul 7 2016</element>
+         <element>Fri Jul 8 2016</element>
+         <element>Mon Jul 11 2016</element>
+         <element>Tue Jul 12 2016</element>
+         <element>Wed Jul 13 2016</element>
+         <element>Thu Jul 14 2016</element>
+         <element>Fri Jul 15 2016</element>
+         <element>Mon Jul 18 2016</element>
+         <element>Tue Jul 19 2016</element>
+         <element>Wed Jul 20 2016</element>
+         <element>Thu Jul 21 2016</element>
+         <element>Fri Jul 22 2016</element>
+         <element>Mon Jul 25 2016</element>
+         <element>Tue Jul 26 2016</element>
+         <element>Wed Jul 27 2016</element>
+         <element>Thu Jul 28 2016</element>
+         <element>Fri Jul 29 2016</element>
+         <element>Mon Aug 1 2016</element>
+         <element>Tue Aug 2 2016</element>
+         <element>Wed Aug 3 2016</element>
+         <element>Thu Aug 4 2016</element>
+         <element>Fri Aug 5 2016</element>
+         <element>Mon Aug 8 2016</element>
+         <element>Tue Aug 9 2016</element>
+         <element>Wed Aug 10 2016</element>
+         <element>Thu Aug 11 2016</element>
+         <element>Fri Aug 12 2016</element>
+         <element>Mon Aug 15 2016</element>
+         <element>Tue Aug 16 2016</element>
+         <element>Wed Aug 17 2016</element>
+         <element>Thu Aug 18 2016</element>
+         <element>Fri Aug 19 2016</element>
+         <element>Mon Aug 22 2016</element>
+         <element>Tue Aug 23 2016</element>
+         <element>Wed Aug 24 2016</element>
+         <element>Thu Aug 25 2016</element>
+         <element>Fri Aug 26 2016</element>
+         <element>Mon Aug 29 2016</element>
+         <element>Tue Aug 30 2016</element>
+         <element>Wed Aug 31 2016</element>
+         <element>Thu Sep 1 2016</element>
+         <element>Fri Sep 2 2016</element>
+         <element>Tue Sep 6 2016</element>
+         <element>Wed Sep 7 2016</element>
+         <element>Thu Sep 8 2016</element>
+         <element>Fri Sep 9 2016</element>
+         <element>Mon Sep 12 2016</element>
+         <element>Tue Sep 13 2016</element>
+         <element>Wed Sep 14 2016</element>
+         <element>Thu Sep 15 2016</element>
+         <element>Fri Sep 16 2016</element>
+         <element>Mon Sep 19 2016</element>
+         <element>Tue Sep 20 2016</element>
+         <element>Wed Sep 21 2016</element>
+         <element>Thu Sep 22 2016</element>
+         <element>Fri Sep 23 2016</element>
+         <element>Mon Sep 26 2016</element>
+         <element>Tue Sep 27 2016</element>
+         <element>Wed Sep 28 2016</element>
+         <element>Thu Sep 29 2016</element>
+         <element>Fri Sep 30 2016</element>
+         <element>Mon Oct 3 2016</element>
+         <element>Tue Oct 4 2016</element>
+         <element>Wed Oct 5 2016</element>
+         <element>Thu Oct 6 2016</element>
+         <element>Fri Oct 7 2016</element>
+         <element>Mon Oct 10 2016</element>
+         <element>Tue Oct 11 2016</element>
+         <element>Wed Oct 12 2016</element>
+         <element>Thu Oct 13 2016</element>
+         <element>Fri Oct 14 2016</element>
+         <element>Mon Oct 17 2016</element>
+         <element>Tue Oct 18 2016</element>
+         <element>Wed Oct 19 2016</element>
+         <element>Thu Oct 20 2016</element>
+         <element>Fri Oct 21 2016</element>
+         <element>Mon Oct 24 2016</element>
+         <element>Tue Oct 25 2016</element>
+         <element>Wed Oct 26 2016</element>
+         <element>Thu Oct 27 2016</element>
+         <element>Fri Oct 28 2016</element>
+         <element>Mon Oct 31 2016</element>
+         <element>Tue Nov 1 2016</element>
+         <element>Wed Nov 2 2016</element>
+         <element>Thu Nov 3 2016</element>
+         <element>Fri Nov 4 2016</element>
+         <element>Mon Nov 7 2016</element>
+         <element>Tue Nov 8 2016</element>
+         <element>Wed Nov 9 2016</element>
+         <element>Thu Nov 10 2016</element>
+         <element>Fri Nov 11 2016</element>
+         <element>Mon Nov 14 2016</element>
+         <element>Tue Nov 15 2016</element>
+         <element>Wed Nov 16 2016</element>
+         <element>Thu Nov 17 2016</element>
+         <element>Fri Nov 18 2016</element>
+         <element>Mon Nov 21 2016</element>
+         <element>Tue Nov 22 2016</element>
+         <element>Wed Nov 23 2016</element>
+         <element>Fri Nov 25 2016</element>
+         <element>Mon Nov 28 2016</element>
+         <element>Tue Nov 29 2016</element>
+         <element>Wed Nov 30 2016</element>
+         <element>Thu Dec 1 2016</element>
+         <element>Fri Dec 2 2016</element>
+         <element>Mon Dec 5 2016</element>
+         <element>Tue Dec 6 2016</element>
+         <element>Wed Dec 7 2016</element>
+         <element>Thu Dec 8 2016</element>
+         <element>Fri Dec 9 2016</element>
+         <element>Mon Dec 12 2016</element>
+         <element>Tue Dec 13 2016</element>
+         <element>Wed Dec 14 2016</element>
+         <element>Thu Dec 15 2016</element>
+         <element>Fri Dec 16 2016</element>
+         <element>Mon Dec 19 2016</element>
+         <element>Tue Dec 20 2016</element>
+         <element>Wed Dec 21 2016</element>
+         <element>Thu Dec 22 2016</element>
+         <element>Fri Dec 23 2016</element>
+         <element>Tue Dec 27 2016</element>
+         <element>Wed Dec 28 2016</element>
+         <element>Thu Dec 29 2016</element>
+         <element>Fri Dec 30 2016</element>
+         <element>Tue Jan 3 2017</element>
+         <element>Wed Jan 4 2017</element>
+         <element>Thu Jan 5 2017</element>
+         <element>Fri Jan 6 2017</element>
+         <element>Mon Jan 9 2017</element>
+         <element>Tue Jan 10 2017</element>
+         <element>Wed Jan 11 2017</element>
+         <element>Thu Jan 12 2017</element>
+         <element>Fri Jan 13 2017</element>
+         <element>Tue Jan 17 2017</element>
+         <element>Wed Jan 18 2017</element>
+         <element>Thu Jan 19 2017</element>
+         <element>Fri Jan 20 2017</element>
+         <element>Mon Jan 23 2017</element>
+         <element>Tue Jan 24 2017</element>
+         <element>Wed Jan 25 2017</element>
+         <element>Thu Jan 26 2017</element>
+         <element>Fri Jan 27 2017</element>
+         <element>Mon Jan 30 2017</element>
+         <element>Tue Jan 31 2017</element>
+         <element>Wed Feb 1 2017</element>
+         <element>Thu Feb 2 2017</element>
+         <element>Fri Feb 3 2017</element>
+         <element>Mon Feb 6 2017</element>
+         <element>Tue Feb 7 2017</element>
+         <element>Wed Feb 8 2017</element>
+         <element>Thu Feb 9 2017</element>
+         <element>Fri Feb 10 2017</element>
+         <element>Mon Feb 13 2017</element>
+         <element>Tue Feb 14 2017</element>
+         <element>Wed Feb 15 2017</element>
+         <element>Thu Feb 16 2017</element>
+         <element>Fri Feb 17 2017</element>
+         <element>Tue Feb 21 2017</element>
+         <element>Wed Feb 22 2017</element>
+         <element>Thu Feb 23 2017</element>
+         <element>Fri Feb 24 2017</element>
+         <element>Mon Feb 27 2017</element>
+         <element>Tue Feb 28 2017</element>
+         <element>Wed Mar 1 2017</element>
+         <element>Thu Mar 2 2017</element>
+         <element>Fri Mar 3 2017</element>
+         <element>Mon Mar 6 2017</element>
+         <element>Tue Mar 7 2017</element>
+         <element>Wed Mar 8 2017</element>
+         <element>Thu Mar 9 2017</element>
+         <element>Fri Mar 10 2017</element>
+         <element>Mon Mar 13 2017</element>
+         <element>Tue Mar 14 2017</element>
+         <element>Wed Mar 15 2017</element>
+         <element>Thu Mar 23 2017</element>
+         <element>Fri Mar 24 2017</element>
+         <element>Mon Mar 27 2017</element>
+         <element>Tue Mar 28 2017</element>
+         <element>Wed Mar 29 2017</element>
+         <element>Thu Mar 30 2017</element>
+         <element>Fri Mar 31 2017</element>
+         <element>Mon Apr 3 2017</element>
+         <element>Tue Apr 4 2017</element>
+         <element>Wed Apr 5 2017</element>
+         <element>Thu Apr 6 2017</element>
+         <element>Fri Apr 7 2017</element>
+         <element>Mon Apr 10 2017</element>
+         <element>Tue Apr 11 2017</element>
+         <element>Wed Apr 12 2017</element>
+         <element>Thu Apr 13 2017</element>
+         <element>Mon Apr 17 2017</element>
+         <element>Tue Apr 18 2017</element>
+         <element>Wed Apr 19 2017</element>
+         <element>Thu Apr 20 2017</element>
+         <element>Fri Apr 21 2017</element>
+         <element>Mon Apr 24 2017</element>
+         <element>Tue Apr 25 2017</element>
+         <element>Wed Apr 26 2017</element>
+         <element>Thu Apr 27 2017</element>
+         <element>Fri Apr 28 2017</element>
+         <element>Mon May 1 2017</element>
+         <element>Tue May 2 2017</element>
+         <element>Wed May 3 2017</element>
+         <element>Thu May 4 2017</element>
+         <element>Fri May 5 2017</element>
+         <element>Mon May 8 2017</element>
+         <element>Tue May 9 2017</element>
+         <element>Wed May 10 2017</element>
+         <element>Thu May 11 2017</element>
+         <element>Fri May 12 2017</element>
+         <element>Mon May 15 2017</element>
+      </SeriesDates>
+      <SeriesDuration>365</SeriesDuration>
+      <SeriesLabelCoordinates>
+         <element>0</element>
+         <element>0</element>
+         <element>0</element>
+         <element>0</element>
+         <element>0</element>
+         <element>0.019</element>
+         <element>0.019</element>
+         <element>0.019</element>
+         <element>0.019</element>
+         <element>0.019</element>
+         <element>0.038</element>
+         <element>0.038</element>
+         <element>0.038</element>
+         <element>0.038</element>
+         <element>0.058</element>
+         <element>0.058</element>
+         <element>0.058</element>
+         <element>0.058</element>
+         <element>0.058</element>
+         <element>0.077</element>
+         <element>0.077</element>
+         <element>0.077</element>
+         <element>0.077</element>
+         <element>0.077</element>
+         <element>0.096</element>
+         <element>0.096</element>
+         <element>0.096</element>
+         <element>0.096</element>
+         <element>0.096</element>
+         <element>0.115</element>
+         <element>0.115</element>
+         <element>0.115</element>
+         <element>0.115</element>
+         <element>0.115</element>
+         <element>0.135</element>
+         <element>0.135</element>
+         <element>0.135</element>
+         <element>0.135</element>
+         <element>0.154</element>
+         <element>0.154</element>
+         <element>0.154</element>
+         <element>0.154</element>
+         <element>0.154</element>
+         <element>0.173</element>
+         <element>0.173</element>
+         <element>0.173</element>
+         <element>0.173</element>
+         <element>0.173</element>
+         <element>0.192</element>
+         <element>0.192</element>
+         <element>0.192</element>
+         <element>0.192</element>
+         <element>0.192</element>
+         <element>0.212</element>
+         <element>0.212</element>
+         <element>0.212</element>
+         <element>0.212</element>
+         <element>0.212</element>
+         <element>0.231</element>
+         <element>0.231</element>
+         <element>0.231</element>
+         <element>0.231</element>
+         <element>0.231</element>
+         <element>0.25</element>
+         <element>0.25</element>
+         <element>0.25</element>
+         <element>0.25</element>
+         <element>0.25</element>
+         <element>0.269</element>
+         <element>0.269</element>
+         <element>0.269</element>
+         <element>0.269</element>
+         <element>0.269</element>
+         <element>0.288</element>
+         <element>0.288</element>
+         <element>0.288</element>
+         <element>0.288</element>
+         <element>0.288</element>
+         <element>0.308</element>
+         <element>0.308</element>
+         <element>0.308</element>
+         <element>0.308</element>
+         <element>0.327</element>
+         <element>0.327</element>
+         <element>0.327</element>
+         <element>0.327</element>
+         <element>0.327</element>
+         <element>0.346</element>
+         <element>0.346</element>
+         <element>0.346</element>
+         <element>0.346</element>
+         <element>0.346</element>
+         <element>0.365</element>
+         <element>0.365</element>
+         <element>0.365</element>
+         <element>0.365</element>
+         <element>0.365</element>
+         <element>0.385</element>
+         <element>0.385</element>
+         <element>0.385</element>
+         <element>0.385</element>
+         <element>0.385</element>
+         <element>0.404</element>
+         <element>0.404</element>
+         <element>0.404</element>
+         <element>0.404</element>
+         <element>0.404</element>
+         <element>0.423</element>
+         <element>0.423</element>
+         <element>0.423</element>
+         <element>0.423</element>
+         <element>0.423</element>
+         <element>0.442</element>
+         <element>0.442</element>
+         <element>0.442</element>
+         <element>0.442</element>
+         <element>0.442</element>
+         <element>0.462</element>
+         <element>0.462</element>
+         <element>0.462</element>
+         <element>0.462</element>
+         <element>0.462</element>
+         <element>0.481</element>
+         <element>0.481</element>
+         <element>0.481</element>
+         <element>0.481</element>
+         <element>0.481</element>
+         <element>0.5</element>
+         <element>0.5</element>
+         <element>0.5</element>
+         <element>0.5</element>
+         <element>0.5</element>
+         <element>0.519</element>
+         <element>0.519</element>
+         <element>0.519</element>
+         <element>0.519</element>
+         <element>0.538</element>
+         <element>0.538</element>
+         <element>0.538</element>
+         <element>0.538</element>
+         <element>0.538</element>
+         <element>0.558</element>
+         <element>0.558</element>
+         <element>0.558</element>
+         <element>0.558</element>
+         <element>0.558</element>
+         <element>0.577</element>
+         <element>0.577</element>
+         <element>0.577</element>
+         <element>0.577</element>
+         <element>0.577</element>
+         <element>0.596</element>
+         <element>0.596</element>
+         <element>0.596</element>
+         <element>0.596</element>
+         <element>0.596</element>
+         <element>0.615</element>
+         <element>0.615</element>
+         <element>0.615</element>
+         <element>0.615</element>
+         <element>0.635</element>
+         <element>0.635</element>
+         <element>0.635</element>
+         <element>0.635</element>
+         <element>0.654</element>
+         <element>0.654</element>
+         <element>0.654</element>
+         <element>0.654</element>
+         <element>0.654</element>
+         <element>0.673</element>
+         <element>0.673</element>
+         <element>0.673</element>
+         <element>0.673</element>
+         <element>0.692</element>
+         <element>0.692</element>
+         <element>0.692</element>
+         <element>0.692</element>
+         <element>0.692</element>
+         <element>0.712</element>
+         <element>0.712</element>
+         <element>0.712</element>
+         <element>0.712</element>
+         <element>0.712</element>
+         <element>0.731</element>
+         <element>0.731</element>
+         <element>0.731</element>
+         <element>0.731</element>
+         <element>0.731</element>
+         <element>0.75</element>
+         <element>0.75</element>
+         <element>0.75</element>
+         <element>0.75</element>
+         <element>0.75</element>
+         <element>0.769</element>
+         <element>0.769</element>
+         <element>0.769</element>
+         <element>0.769</element>
+         <element>0.788</element>
+         <element>0.788</element>
+         <element>0.788</element>
+         <element>0.788</element>
+         <element>0.788</element>
+         <element>0.808</element>
+         <element>0.808</element>
+         <element>0.808</element>
+         <element>0.808</element>
+         <element>0.808</element>
+         <element>0.827</element>
+         <element>0.827</element>
+         <element>0.827</element>
+         <element>0.846</element>
+         <element>0.846</element>
+         <element>0.865</element>
+         <element>0.865</element>
+         <element>0.865</element>
+         <element>0.865</element>
+         <element>0.865</element>
+         <element>0.885</element>
+         <element>0.885</element>
+         <element>0.885</element>
+         <element>0.885</element>
+         <element>0.885</element>
+         <element>0.904</element>
+         <element>0.904</element>
+         <element>0.904</element>
+         <element>0.904</element>
+         <element>0.923</element>
+         <element>0.923</element>
+         <element>0.923</element>
+         <element>0.923</element>
+         <element>0.923</element>
+         <element>0.942</element>
+         <element>0.942</element>
+         <element>0.942</element>
+         <element>0.942</element>
+         <element>0.942</element>
+         <element>0.962</element>
+         <element>0.962</element>
+         <element>0.962</element>
+         <element>0.962</element>
+         <element>0.962</element>
+         <element>0.981</element>
+         <element>0.981</element>
+         <element>0.981</element>
+         <element>0.981</element>
+         <element>0.981</element>
+         <element>1</element>
+      </SeriesLabelCoordinates>
+      <SeriesLabels>
+         <x>
+            <dates>
+               <element>42506</element>
+               <element>42522</element>
+               <element>42552</element>
+               <element>42583</element>
+               <element>42614</element>
+               <element>42644</element>
+               <element>42675</element>
+               <element>42705</element>
+               <element>42736</element>
+               <element>42767</element>
+               <element>42795</element>
+               <element>42826</element>
+               <element>42856</element>
+            </dates>
+            <pos>
+               <element>0</element>
+               <element>0.038</element>
+               <element>0.115</element>
+               <element>0.212</element>
+               <element>0.288</element>
+               <element>0.365</element>
+               <element>0.462</element>
+               <element>0.538</element>
+               <element>0.625</element>
+               <element>0.712</element>
+               <element>0.788</element>
+               <element>0.865</element>
+               <element>0.962</element>
+            </pos>
+            <priorities>
+               <element>0.001</element>
+               <element>0.002</element>
+               <element>0.003</element>
+               <element>0.004</element>
+               <element>0.005</element>
+               <element>0.006</element>
+               <element>0.007</element>
+               <element>0.008</element>
+               <element>0.009</element>
+               <element>0.01</element>
+               <element>0.011</element>
+               <element>0.012</element>
+               <element>0.013</element>
+            </priorities>
+            <text>
+               <element>May 2016</element>
+               <element>Jun 2016</element>
+               <element>Jul 2016</element>
+               <element>Aug 2016</element>
+               <element>Sep 2016</element>
+               <element>Oct 2016</element>
+               <element>Nov 2016</element>
+               <element>Dec 2016</element>
+               <element>Jan 2017</element>
+               <element>Feb 2017</element>
+               <element>Mar 2017</element>
+               <element>Apr 2017</element>
+               <element>May 2017</element>
+            </text>
+            <utcDates>
+               <element>42506</element>
+               <element>42522</element>
+               <element>42552</element>
+               <element>42583</element>
+               <element>42614</element>
+               <element>42644</element>
+               <element>42675</element>
+               <element>42705</element>
+               <element>42736</element>
+               <element>42767</element>
+               <element>42795</element>
+               <element>42826</element>
+               <element>42856</element>
+            </utcDates>
+         </x>
+      </SeriesLabels>
+      <Symbol>TSLA</Symbol>
+   </company>
+   <Matches>true</Matches>
+</marketData>
