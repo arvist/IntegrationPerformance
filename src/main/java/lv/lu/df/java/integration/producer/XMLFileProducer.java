@@ -24,7 +24,7 @@ public class XMLFileProducer {
         File [] files = new File("C:/testData/xml/").listFiles();
         ProducerTemplate producer = this.camelContext.createProducerTemplate();
         long totalTime = 0;
-        for(int i=0; i<10; i++) {
+        for(int i=0; i< 100; i++) {
             for (File file : files) {
                 String xmlContents = FileUtils.readFileToString(file);
                 Exchange exchange = new DefaultExchange(this.camelContext);
