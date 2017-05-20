@@ -15,7 +15,6 @@ import org.apache.camel.model.dataformat.JsonLibrary;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
-import java.math.BigDecimal;
 import java.util.List;
 
 @Component
@@ -35,9 +34,6 @@ public class Routes extends RouteBuilder {
     private ObjectMapper objectMapper;
     @Autowired
     private DatabaseService databaseService;
-
-
-    private static final BigDecimal HUNDRED = new BigDecimal(100);
 
     public void configure() throws Exception {
 
@@ -60,7 +56,7 @@ public class Routes extends RouteBuilder {
         from("direct://company-data-processing")
                 .log(LoggingLevel.INFO,body().toString())
                 .choice()
-                    .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).getSeries().iterator().next().getMin().compareTo(HUNDRED) < 0)
+                    .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).getSeries().iterator().next().getMin()/100.00 < 0)
                         .log(LoggingLevel.INFO,"DROP, series minimum value under 100. " +body().toString())
                         .stop()
                     .when(exchange -> !supportedCompanies.contains(exchange.getIn().getBody(CompanyDTO.class).getSymbol()))
@@ -71,7 +67,7 @@ public class Routes extends RouteBuilder {
                         .stop()
                 .end()
                 .choice()
-                    .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).getActive() == null)
+                    .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).isActiveSet() == false)
                         .log(LoggingLevel.INFO,"Before WS to acquire more information about company " + body())
                         .bean(companyActiveFlagWs,"isCompanyActive")
                         .log(LoggingLevel.INFO,"After WS to acquire more information about company " + body())

@@ -10,7 +10,7 @@ public class CompanyDTO {
 
     @Id
     @GeneratedValue
-    private Integer id;
+    private int id;
     @Column
     private String name;
     @Transient
@@ -18,22 +18,34 @@ public class CompanyDTO {
     @Column
     private String symbol;
     @Column
-    private Boolean isActive;
+    private boolean isActive;
+    @Transient
+    private boolean isActiveSet = false;
 
     public CompanyDTO() {
     }
 
-    public CompanyDTO(String name, List<Serie> series, String symbol, Boolean isActive) {
+    public CompanyDTO(String name, List<Serie> series, String symbol, boolean isActive) {
         this.name = name;
         this.series = series;
         this.symbol = symbol;
         this.isActive = isActive;
+        this.isActiveSet = true;
     }
 
     public CompanyDTO(String name, List<Serie> series, String symbol) {
         this.name = name;
         this.series = series;
         this.symbol = symbol;
+        this.isActiveSet = false;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public void setId(int id) {
+        this.id = id;
     }
 
     public String getName() {
@@ -60,13 +72,18 @@ public class CompanyDTO {
         this.symbol = symbol;
     }
 
-    public Boolean getActive() { return isActive; }
+    public boolean isActive() {
+        return isActive;
+    }
 
-    public void setActive(Boolean active) { isActive = active; }
+    public void setActive(boolean active) {
+        isActive = active;
+        isActiveSet = true;
+    }
 
-    public Integer getId() { return id; }
+    public boolean isActiveSet() { return isActiveSet; }
 
-    public void setId(Integer id) { this.id = id; }
+    public void setActiveSet(boolean activeSet) { isActiveSet = activeSet; }
 
     @Override
     public String toString() {

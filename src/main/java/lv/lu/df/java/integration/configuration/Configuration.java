@@ -94,7 +94,7 @@ public class Configuration {
         properties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
         properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
         properties.put("hibernate.hbm2ddl.auto", "create-drop");
-        properties.put("hibernate.show_sql","true");
+        properties.put("hibernate.show_sql","false");
         return properties;
     }
 
