@@ -7,10 +7,12 @@ import lv.lu.df.java.integration.enricher.CompanyActiveFlagWs;
 import lv.lu.df.java.integration.model.jaxb.Company;
 import lv.lu.df.java.integration.processor.ContentFilterProcessor;
 import lv.lu.df.java.integration.routes.Routes;
+import lv.lu.df.java.integration.service.DatabaseService;
+import lv.lu.df.java.integration.service.PeriodicBatchInsertChecker;
 import org.apache.camel.Processor;
-import org.apache.camel.builder.xml.XPathBuilder;
 import org.apache.camel.model.dataformat.JaxbDataFormat;
 import org.apache.camel.spring.SpringCamelContext;
+import org.apacheextras.camel.component.vtdxml.VtdXmlXPathBuilder;
 import org.hibernate.jpa.HibernatePersistenceProvider;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
@@ -34,6 +36,15 @@ public class Configuration {
 
     @Autowired
     private CompanyDTOConverter companyDTOConverter;
+
+
+
+    @Bean
+    public PeriodicBatchInsertChecker periodicBatchInsertChecker(DatabaseService service){
+        PeriodicBatchInsertChecker periodicBatchInsertChecker = new PeriodicBatchInsertChecker(service);
+        periodicBatchInsertChecker.start();
+        return periodicBatchInsertChecker;
+    }
 
     @Bean
     public JaxbDataFormat jaxb() {
@@ -59,8 +70,8 @@ public class Configuration {
     }
 
     @Bean
-    public XPathBuilder xPathBuilder() {
-        return new XPathBuilder("/marketData/company");
+    public VtdXmlXPathBuilder vtdPathBuilder(){
+        return new VtdXmlXPathBuilder("/marketData/company");
     }
 
     @Bean
@@ -79,7 +90,7 @@ public class Configuration {
     @Bean
     public DataSource dataSource() throws PropertyVetoException {
         final ComboPooledDataSource dataSource = new ComboPooledDataSource();
-        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/test"); //?rewriteBatchedStatements=true
+        dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true");
         dataSource.setUser("test");
         dataSource.setPassword("1234");
         dataSource.setDriverClass("com.mysql.jdbc.Driver");
@@ -94,7 +105,11 @@ public class Configuration {
         properties.put("hibernate.dialect", "org.hibernate.dialect.MySQLDialect");
         properties.put("hibernate.connection.driver_class", "com.mysql.jdbc.Driver");
         properties.put("hibernate.hbm2ddl.auto", "create-drop");
-        properties.put("hibernate.show_sql","false");
+        properties.put("hibernate.show_sql","true");
+        properties.put("hibernate.jdbc.batch_size","1");
+        properties.put("hibernate.order_inserts", "true");
+        properties.put("hibernate.order_updates", "true");
+        properties.put("hibernate.jdbc.batch_versioned_data", "true");
         return properties;
     }
 

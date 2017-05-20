@@ -9,9 +9,9 @@ import lv.lu.df.java.integration.service.DatabaseService;
 import org.apache.camel.LoggingLevel;
 import org.apache.camel.Processor;
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.builder.xml.XPathBuilder;
 import org.apache.camel.model.dataformat.JaxbDataFormat;
 import org.apache.camel.model.dataformat.JsonLibrary;
+import org.apacheextras.camel.component.vtdxml.VtdXmlXPathBuilder;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -25,7 +25,7 @@ public class Routes extends RouteBuilder {
     @Autowired
     private Processor contentFilter;
     @Autowired
-    private XPathBuilder xPathBuilder;
+    private VtdXmlXPathBuilder vtdPathBuilder;
     @Autowired
     private List<String> supportedCompanies;
     @Autowired
@@ -38,7 +38,7 @@ public class Routes extends RouteBuilder {
     public void configure() throws Exception {
 
         from("direct:inboxXML")
-                .split(xPathBuilder)
+                .split(vtdPathBuilder)
                 .log(LoggingLevel.INFO,"After Split")
                 .convertBodyTo(String.class)
                 .unmarshal(jaxbDataFormat)
@@ -56,11 +56,11 @@ public class Routes extends RouteBuilder {
         from("direct://company-data-processing")
                 .log(LoggingLevel.INFO,body().toString())
                 .choice()
-                    .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).getSeries().iterator().next().getMin()/100.00 < 0)
-                        .log(LoggingLevel.INFO,"DROP, series minimum value under 100. " +body().toString())
-                        .stop()
                     .when(exchange -> !supportedCompanies.contains(exchange.getIn().getBody(CompanyDTO.class).getSymbol()))
                         .log(LoggingLevel.INFO,"DROP, company not in supported company list. " + body().toString())
+                        .stop()
+                    .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).getSeries().iterator().next().getMin()/100.00 < 0)
+                        .log(LoggingLevel.INFO,"DROP, series minimum value under 100. " +body().toString())
                         .stop()
                     .when(exchange -> exchange.getIn().getBody(CompanyDTO.class).getSeries().isEmpty())
                         .log(LoggingLevel.INFO,"DROP, company series entry is empty. " + body().toString())

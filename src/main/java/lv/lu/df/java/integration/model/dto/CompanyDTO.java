@@ -3,10 +3,13 @@ package lv.lu.df.java.integration.model.dto;
 
 import javax.persistence.*;
 import java.util.List;
+import java.util.concurrent.atomic.AtomicInteger;
 
 @Table
 @Entity(name = "CompanyDTO")
 public class CompanyDTO {
+
+    private AtomicInteger idGenerator = new AtomicInteger(0);
 
     @Id
     @GeneratedValue
@@ -23,9 +26,11 @@ public class CompanyDTO {
     private boolean isActiveSet = false;
 
     public CompanyDTO() {
+        this.setId(idGenerator.incrementAndGet());
     }
 
     public CompanyDTO(String name, List<Serie> series, String symbol, boolean isActive) {
+        super();
         this.name = name;
         this.series = series;
         this.symbol = symbol;
@@ -34,6 +39,7 @@ public class CompanyDTO {
     }
 
     public CompanyDTO(String name, List<Serie> series, String symbol) {
+        super();
         this.name = name;
         this.series = series;
         this.symbol = symbol;
