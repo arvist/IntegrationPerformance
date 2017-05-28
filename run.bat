@@ -1,1 +1,0 @@
-java -jar integration-performance-1.0-SNAPSHOT.jar > out.log 2>&1

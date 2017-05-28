@@ -1,0 +1,15 @@
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\jaxb\ObjectFactory.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\dto\CompanyDTO.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\jaxb\MarketData.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\enricher\CompanyActiveFlagWs.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\jaxb\Company.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\service\DatabaseService.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\converter\CompanyDTOConverter.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\producer\JSONFileProducer.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\service\PeriodicBatchInsertChecker.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\dto\Serie.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\configuration\Configuration.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\processor\ContentFilterProcessor.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\routes\Routes.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\Main.java
+D:\DEV\Data\Repositories\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\producer\XMLFileProducer.java
