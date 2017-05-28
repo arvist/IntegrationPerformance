@@ -1,0 +1,14 @@
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\jaxb\ObjectFactory.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\producer\JSONFileProducer.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\producer\XMLFileProducer.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\routes\Routes.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\enricher\CompanyActiveFlagWs.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\configuration\Configuration.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\service\DatabaseService.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\converter\CompanyDTOConverter.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\dto\CompanyDTO.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\dto\Serie.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\jaxb\MarketData.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\model\jaxb\Company.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\processor\ContentFilterProcessor.java
+C:\Users\arvis\Dropbox\LU\Bakalaura darbs\branches\initial\IntegrationPerformance\src\main\java\lv\lu\df\java\integration\Main.java

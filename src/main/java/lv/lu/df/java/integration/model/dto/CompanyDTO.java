@@ -3,17 +3,14 @@ package lv.lu.df.java.integration.model.dto;
 
 import javax.persistence.*;
 import java.util.List;
-import java.util.concurrent.atomic.AtomicInteger;
 
 @Table
 @Entity(name = "CompanyDTO")
 public class CompanyDTO {
 
-    private AtomicInteger idGenerator = new AtomicInteger(0);
-
     @Id
     @GeneratedValue
-    private int id;
+    private Integer id;
     @Column
     private String name;
     @Transient
@@ -21,37 +18,22 @@ public class CompanyDTO {
     @Column
     private String symbol;
     @Column
-    private boolean isActive;
-    @Transient
-    private boolean isActiveSet = false;
+    private Boolean isActive;
 
     public CompanyDTO() {
-        this.setId(idGenerator.incrementAndGet());
     }
 
-    public CompanyDTO(String name, List<Serie> series, String symbol, boolean isActive) {
-        super();
+    public CompanyDTO(String name, List<Serie> series, String symbol, Boolean isActive) {
         this.name = name;
         this.series = series;
         this.symbol = symbol;
         this.isActive = isActive;
-        this.isActiveSet = true;
     }
 
     public CompanyDTO(String name, List<Serie> series, String symbol) {
-        super();
         this.name = name;
         this.series = series;
         this.symbol = symbol;
-        this.isActiveSet = false;
-    }
-
-    public int getId() {
-        return id;
-    }
-
-    public void setId(int id) {
-        this.id = id;
     }
 
     public String getName() {
@@ -78,18 +60,13 @@ public class CompanyDTO {
         this.symbol = symbol;
     }
 
-    public boolean isActive() {
-        return isActive;
-    }
+    public Boolean getActive() { return isActive; }
 
-    public void setActive(boolean active) {
-        isActive = active;
-        isActiveSet = true;
-    }
+    public void setActive(Boolean active) { isActive = active; }
 
-    public boolean isActiveSet() { return isActiveSet; }
+    public Integer getId() { return id; }
 
-    public void setActiveSet(boolean activeSet) { isActiveSet = activeSet; }
+    public void setId(Integer id) { this.id = id; }
 
     @Override
     public String toString() {

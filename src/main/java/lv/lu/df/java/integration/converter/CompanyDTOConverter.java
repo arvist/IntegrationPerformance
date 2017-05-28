@@ -8,6 +8,7 @@ import org.apache.camel.Converter;
 import org.apache.camel.TypeConverters;
 import org.springframework.stereotype.Component;
 
+import java.math.BigDecimal;
 import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
@@ -35,8 +36,8 @@ public class CompanyDTOConverter implements TypeConverters {
             } catch (ParseException p){
                 p.printStackTrace();
             }
-            serie.setMin(company.getSeries().getLow().getValues().getElement().get(i));
-            serie.setMax(company.getSeries().getHigh().getValues().getElement().get(i));
+            serie.setMin(new BigDecimal(company.getSeries().getLow().getValues().getElement().get(i)));
+            serie.setMax(new BigDecimal(company.getSeries().getHigh().getValues().getElement().get(i)));
 
             companyDTO.getSeries().add(serie);
         }

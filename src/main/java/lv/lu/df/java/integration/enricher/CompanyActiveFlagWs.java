@@ -10,8 +10,8 @@ public class CompanyActiveFlagWs {
         exchange.getIn().getBody(CompanyDTO.class).setActive(this.getCompanyInfo(exchange.getIn().getBody(CompanyDTO.class)));
     }
 
-    private boolean getCompanyInfo(CompanyDTO body) throws InterruptedException {
-        if(System.currentTimeMillis() % 2 == 0) return true;
-        else return false;
+    private Boolean getCompanyInfo(CompanyDTO body) throws InterruptedException {
+        if(System.currentTimeMillis() % 2 == 0) return Boolean.TRUE;
+        else return Boolean.FALSE;
     }
 }

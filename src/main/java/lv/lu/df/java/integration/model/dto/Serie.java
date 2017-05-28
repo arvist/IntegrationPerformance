@@ -1,6 +1,7 @@
 package lv.lu.df.java.integration.model.dto;
 
 import javax.persistence.*;
+import java.math.BigDecimal;
 import java.util.Date;
 
 
@@ -10,19 +11,19 @@ public class Serie {
 
     @Id
     @GeneratedValue
-    private int seriesId;
+    private Integer seriesId;
     @Column
-    private float min;
+    private BigDecimal min;
     @Column
-    private float max;
+    private BigDecimal max;
     @Column
-    private float average;
+    private BigDecimal average;
     @Column
     private Date date;
     @Column
-    private int companyId;
+    private Integer companyId;
 
-    public Serie(float min, float max, float average, Date date) {
+    public Serie(BigDecimal min, BigDecimal max, BigDecimal average, Date date) {
         this.min = min;
         this.max = max;
         this.average = average;
@@ -32,36 +33,27 @@ public class Serie {
     public Serie() {
     }
 
-
-    public int getSeriesId() {
-        return seriesId;
-    }
-
-    public void setSeriesId(int seriesId) {
-        this.seriesId = seriesId;
-    }
-
-    public float getMin() {
+    public BigDecimal getMin() {
         return min;
     }
 
-    public void setMin(float min) {
+    public void setMin(BigDecimal min) {
         this.min = min;
     }
 
-    public float getMax() {
+    public BigDecimal getMax() {
         return max;
     }
 
-    public void setMax(float max) {
+    public void setMax(BigDecimal max) {
         this.max = max;
     }
 
-    public float getAverage() {
+    public BigDecimal getAverage() {
         return average;
     }
 
-    public void setAverage(float average) {
+    public void setAverage(BigDecimal average) {
         this.average = average;
     }
 
@@ -73,13 +65,26 @@ public class Serie {
         this.date = date;
     }
 
-    public int getCompanyId() {
+    public int getSeriesId() {
+        return seriesId;
+    }
+
+    public void setSeriesId(int seriesId) {
+        this.seriesId = seriesId;
+    }
+
+    public void setSeriesId(Integer seriesId) {
+        this.seriesId = seriesId;
+    }
+
+    public Integer getCompanyId() {
         return companyId;
     }
 
-    public void setCompanyId(int companyId) {
+    public void setCompanyId(Integer companyId) {
         this.companyId = companyId;
     }
+
 
     @Override
     public String toString() {
