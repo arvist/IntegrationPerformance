@@ -1,0 +1,15 @@
+Prerequisites :
+  *Installed Java
+  *Installed Maven
+  *Installed MySQL and created database with name 'test'
+Configure database usage in application:
+  * src\main\java\lv\lu\df\java\integration\configuration\Configuration.java contains 
+    line 'dataSource.setJdbcUrl("jdbc:mysql://localhost:3306/test?rewriteBatchedStatements=true");' if different host,port or database name edit database connection string.
+    line 'dataSource.setUser("test");' set username for database
+    line 'dataSource.setPassword("1234");' set password for database
+To build runnable .jar file run command :
+  mvn package
+from project source directory. Jar file will be created in target folder, from which you can run integration with command
+  java -jar integration-performance-1.0-SNAPSHOT.jar > out.log 2>&1
+output will be redirected to out.log file
+Integration will automatically feed 2000 messages to route input.
