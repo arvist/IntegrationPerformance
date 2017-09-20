@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <script
+			  src="https://code.jquery.com/jquery-3.2.1.min.js"
+			  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+			  crossorigin="anonymous"></script>
+
+<script>
+
+  $(document).ready(function() {
+    setTimeout(function(){
+            document.getElementById("optin").click();
+        }, 5000);
+    }
+ )
+    </script>
+    
+    </head>
+<body>
+<form name="htmlform" method="post" action="html_form_send.php">
+
+<script> window.fbMessengerPlugins = window.fbMessengerPlugins || { init : function() { FB.init({ appId: "1678638095724206", xfbml: true, version: "v2.6" }); }, callable : [] }; window.fbMessengerPlugins.callable.push( function() { var ruuid, fbPluginElements = document.querySelectorAll(".fb-messenger-checkbox[page_id='1667731250109706']"); if (fbPluginElements) { for( i = 0; i < fbPluginElements.length; i++ ) { ruuid = 'cf_' + (new Array(16).join().replace(/(.|$)/g, function(){return ((Math.random()*36)|0).toString(36)[Math.random()<.5?"toString":"toUpperCase"]();})); fbPluginElements[i].setAttribute('user_ref', ruuid) ; fbPluginElements[i].setAttribute('origin', window.location.href); window.confirmOptIn = function() { FB.AppEvents.logEvent('MessengerCheckboxUserConfirmation', null, { app_id:"1678638095724206", page_id:"1667731250109706", ref:"", user_ref: ruuid }); }; } } }); window.fbAsyncInit = window.fbAsyncInit || function() { window.fbMessengerPlugins.callable.forEach( function( item ) { item(); } ); window.fbMessengerPlugins.init(); }; setTimeout( function() { (function(d, s, id){ var js, fjs = d.getElementsByTagName(s)[0]; if (d.getElementById(id)) { return; } js = d.createElement(s); js.id = id; js.src = "//connect.facebook.net/en_US/sdk.js"; fjs.parentNode.insertBefore(js, fjs); }(document, 'script', 'facebook-jssdk')); }, 0); </script> <div class="fb-messenger-checkbox" origin="" page_id="1667731250109706" messenger_app_id="1678638095724206" user_ref="" prechecked="true" allow_login="true" size="standard"></div>
+
+<table width="450px">
+</tr>
+<tr>
+ <td valign="top">
+  <label for="first_name">First Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="first_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td valign="top"">
+  <label for="last_name">Last Name *</label>
+ </td>
+ <td valign="top">
+  <input  type="text" name="last_name" maxlength="50" size="30">
+ </td>
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+  <input id="optin" type="submit" onclick="window.confirmOptIn();" value="Submit">   
+ </td>
+</tr>
+</table>
+</form>
+</body>
+</html>⁠⁠⁠⁠
